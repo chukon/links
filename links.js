@@ -1,6 +1,6 @@
 window.onload = function() {
     var url = get("url");
-    alert(url);
+    alert("This link will be opened up in new tab. Make sure popup blocke is turned off");
     window.open(url, '_blank');
 };
 
