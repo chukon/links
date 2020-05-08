@@ -18,4 +18,4 @@ function get(name){
 }
 
 
-get("list");
+//get("list");
