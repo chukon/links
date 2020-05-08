@@ -1,5 +1,6 @@
 window.onload = function() {
     var url = get("url");
+    alert(url);
     window.open (' + url + ,’_self',false);
 
 };
