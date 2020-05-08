@@ -1,5 +1,5 @@
 window.onload = function() {
-    var url = get(“url”);
+    var url = get("url");
     window.open (' + url + ,’_self',false);
 
 };
