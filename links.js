@@ -1,6 +1,6 @@
 window.onload = function() {
-    var url = window.location.search;
-    //var url = get("url");
+    var x = window.location.search;
+    var url = x.searchParams.get("url");
     alert("This link will be opened up in new tab. \r\nMake sure popup blocker is turned off for this website (usually in URL address bar).\t\nTry again once unblocked - Professor Konkol, RVC");
     window.open(url, '_blank');
 };
